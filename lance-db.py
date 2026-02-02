@@ -29,6 +29,6 @@ table.add(
     ]
 )
 
-query = "7 cartas"
-actual = table.search(query).limit(3).to_pandas()
+query = "animal"
+actual = table.search(query).limit(5).to_pandas()
 print(actual)
